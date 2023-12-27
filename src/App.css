@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(43, 159, 171);
+  color: orangered;
+  padding: 15px 25px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  color:orangered;
+}
+
+header div {
+  display: flex;
+  gap: 10px;
+}
+
+.user-login {
+  background-color: rgb(137, 39, 143);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-login {
+  background-color: orangered;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.my-button {
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin: 15px auto;
+  gap: 40px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+form input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  max-width: 100%;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
